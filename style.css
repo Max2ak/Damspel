@@ -1,10 +1,48 @@
-table{
-    width: 75vh;
-    height: 75vh;
-    margin-left: 30%;
-    margin-top: 5%;
-    background-color: black;
+.gridC{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  width: 75vh;
+  height: 75vh;
+  margin-left: 30%;
+  margin-top: 5%;
 }
-h1{
-    margin-left: 40%;
+.grid1{
+  background-color: black;
+ height:9.38vh ; 
+ margin: 0vh;
+ width: 9.38vh ;
+}
+.grid2{
+ background-color: red;
+ height:9.38vh; 
+ margin: 0vh;
+ width: 9.38vh;
+}
+h1 {
+  margin-left: 40%;
+}
+
+.tdW{
+  color: white;
+}
+.Bpiece{
+ height:9.38vh ; 
+ width: 9.38vh ;
+ border: 1px white;
+ background-color: rgb(24, 22, 22);
+ border-radius: 50px ;
+}
+.Rpiece{
+ height:9.38vh; 
+ width: 9.38vh;
+ border: 1px white;
+ background-color: darkred;
+ border-radius: 50px;
+}
+.King.Bpiece{
+background-color: purple;
+}
+.King.Rpiece{
+ background-color: orange;
 }
