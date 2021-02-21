@@ -1,7 +1,10 @@
-body{
+table{
+    width: 75vh;
+    height: 75vh;
+    margin-left: 30%;
+    margin-top: 5%;
     background-color: black;
 }
-
-body canvas{
-    color: white;
+h1{
+    margin-left: 40%;
 }
