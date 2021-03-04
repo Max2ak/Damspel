@@ -1,4 +1,4 @@
-.gridC{
+.gridC {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -7,42 +7,67 @@
   margin-left: 30%;
   margin-top: 5%;
 }
-.grid1{
+.gridB {
   background-color: black;
- height:9.38vh ; 
- margin: 0vh;
- width: 9.38vh ;
+  height: 9.38vh;
+  margin: 0vh;
+  width: 9.38vh;
 }
-.grid2{
- background-color: red;
- height:9.38vh; 
- margin: 0vh;
- width: 9.38vh;
+.gridR {
+  background-color: rgb(184, 43, 43);
+  height: 9.38vh;
+  margin: 0vh;
+  width: 9.38vh;
 }
 h1 {
   margin-left: 40%;
 }
 
-.tdW{
+.tdW {
   color: white;
 }
-.Bpiece{
- height:9.38vh ; 
- width: 9.38vh ;
- border: 1px white;
- background-color: rgb(24, 22, 22);
- border-radius: 50px ;
+.Bpiece {
+  margin: 0vh;
+  height: 9.3vh;
+  width: 9.3vh;
+  border: 1px white;
+  background-color: rgb(46, 38, 38);
+  border-radius: 50px;
 }
-.Rpiece{
- height:9.38vh; 
- width: 9.38vh;
- border: 1px white;
- background-color: darkred;
- border-radius: 50px;
+.Rpiece {
+  margin: 0vh;
+  height: 9.3vh;
+  width: 9.3vh;
+  border: 1px white;
+  background-color: darkred;
+  border-radius: 50px;
 }
-.King.Bpiece{
-background-color: purple;
+.King.Bpiece {
+  background-color: purple;
 }
-.King.Rpiece{
- background-color: orange;
+.King.Rpiece {
+  background-color: orange;
+}
+.D{
+  color: black;
+  margin: 0vh;
+  margin-left: 10vh;
+}
+.ST{
+  color: rgb(165, 165, 165);
+}
+.ST h1{
+  margin: 0vh;
+}
+.RT{
+ color: black;
+}
+.RT h1{
+  margin: 0vh;
+}
+.Turn{
+  display: grid;
+  width: 75vh;
+  margin-left: 30%;
+  grid-template-columns: 1fr 1fr 1fr;
 }
